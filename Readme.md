@@ -126,8 +126,10 @@ pip install pandas numpy seaborn matplotlib scikit-learn \
             transformers torch wordcloud imbalanced-learn xgboost
 ```
 ### 3. Jalankan Analysis
+``` bash
 jupyter notebook pertalite.ipynb
+```
 
 ## Live Demo on Huggingface Spaces!
 
-[![Live Demo](https://shields.io)]([https://huggingface.co/spaces/vino-edric/pertalite-sentiment])
+[![Hugging Face Spaces](https://img.shields.io/badge/🤗%20Hugging%20Face-Spaces-yellow)](https://huggingface.co/spaces/vino-edric/pertalite-sentiment)
