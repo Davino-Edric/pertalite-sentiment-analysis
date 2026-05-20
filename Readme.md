@@ -107,7 +107,7 @@ Unduh source code ke direktori lokal Anda:
 ```bash
 git clone [https://github.com/Davino-Edric/pertalite-sentiment-analysis]
 cd pertalite-sentiment-analysis
-
+```
 ###  2. Setup Environment
 Sangat disarankan untuk menggunakan *Virtual Environment* agar dependencies tidak bentrok dengan sistem utama Anda.
 
@@ -124,6 +124,10 @@ source venv/bin/activate
 # Install seluruh library yang dibutuhkan
 pip install pandas numpy seaborn matplotlib scikit-learn \
             transformers torch wordcloud imbalanced-learn xgboost
-
+```
 ### 3. Jalankan Analysis
 jupyter notebook pertalite.ipynb
+
+## Live Demo on Huggingface Spaces!
+
+[![Live Demo](https://shields.io)]([https://huggingface.co/spaces/vino-edric/pertalite-sentiment])
