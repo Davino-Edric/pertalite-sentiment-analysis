@@ -86,6 +86,21 @@ Evaluasi dilakukan menggunakan metrik **Accuracy**, **F1-Score (Macro)**, dan **
 
 > **Insight:** Meskipun SVM memiliki akurasi tertinggi, **Random Forest dengan SMOTE** memberikan hasil yang lebih *fair* dalam mendeteksi sentimen positif (kelas minoritas), yang sangat penting untuk analisis sentimen yang tidak bias.
 
+## 🔭 Kesimpulan & Pengembangan Selanjutnya
+
+Model dengan performa terbaik — Random Forest dengan SMOTE — telah 
+mencapai batas praktis dari pendekatan representasi TF-IDF bag-of-words 
+untuk tugas ini. F1 sebesar 0.91 pada kelas negatif mencerminkan model 
+yang berhasil mempelajari pola dominan dengan baik, sementara F1 sebesar 
+0.48 pada kelas positif mencerminkan kombinasi dari ketidakseimbangan 
+kelas dan ketidakmampuan representasi dalam menangkap negasi serta 
+sentimen implisit.
+
+Jalur pengembangan selanjutnya yang paling natural adalah fine-tuning 
+IndoBERT secara end-to-end pada dataset berlabel yang dihasilkan oleh 
+pipeline ini — yang akan menyelesaikan masalah context blindness dengan 
+konsekuensi kebutuhan komputasi GPU dan ukuran deployment yang lebih besar.
+
 ---
 
 ## 🛠️ Tech Stack
