@@ -132,4 +132,6 @@ jupyter notebook pertalite.ipynb
 
 ## Live Demo on Huggingface Spaces!
 
+Try the live demo on Hugging Face Spaces — powered by a fine-tuned Random Forest model with SMOTE oversampling for class imbalance handling.
+
 [![Hugging Face Spaces](https://img.shields.io/badge/🤗%20Hugging%20Face-Spaces-yellow)](https://huggingface.co/spaces/vino-edric/pertalite-sentiment)
